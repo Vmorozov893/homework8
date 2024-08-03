@@ -57,8 +57,8 @@ public class Main {
             reverseFullName[i] = reverseFullName[reverseFullName.length - i - 1];
             reverseFullName[reverseFullName.length - i - 1] = c;
         }
-        for (int i = 0; i < reverseFullName.length; i++){
-            System.out.print(reverseFullName[i]);
+        for (char i : reverseFullName){
+            System.out.print(i);
         }
     }
 }
